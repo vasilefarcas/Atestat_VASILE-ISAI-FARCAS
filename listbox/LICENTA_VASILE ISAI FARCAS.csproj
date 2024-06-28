@@ -58,10 +58,11 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -74,88 +75,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adaugare_Clasa.cs">
+    <Compile Include="Item_Modify_Delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adaugare_Clasa.Designer.cs">
-      <DependentUpon>Adaugare_Clasa.cs</DependentUpon>
+    <Compile Include="Item_Modify_Delete.Designer.cs">
+      <DependentUpon>Item_Modify_Delete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Adaugare_Profesor.cs">
+    <Compile Include="Employee_Add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adaugare_Profesor.Designer.cs">
-      <DependentUpon>Adaugare_Profesor.cs</DependentUpon>
+    <Compile Include="Employee_Add.Designer.cs">
+      <DependentUpon>Employee_Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="MeniuPrincipal.cs">
+    <Compile Include="Store_Add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MeniuPrincipal.Designer.cs">
-      <DependentUpon>MeniuPrincipal.cs</DependentUpon>
+    <Compile Include="Store_Add.Designer.cs">
+      <DependentUpon>Store_Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificare_Stergere_Vizualizare_Cautare_Elevi.cs">
+    <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificare_Stergere_Vizualizare_Cautare_Elevi.Designer.cs">
-      <DependentUpon>Modificare_Stergere_Vizualizare_Cautare_Elevi.cs</DependentUpon>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Date_Atestat.cs">
+    <Compile Include="Stock_Modify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Date_Atestat.Designer.cs">
-      <DependentUpon>Date_Atestat.cs</DependentUpon>
+    <Compile Include="Stock_Modify.Designer.cs">
+      <DependentUpon>Stock_Modify.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inregistrare_elev.cs">
+    <Compile Include="Project_Info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inregistrare_elev.Designer.cs">
-      <DependentUpon>Inregistrare_elev.cs</DependentUpon>
+    <Compile Include="Project_Info.Designer.cs">
+      <DependentUpon>Project_Info.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificare_Stergere_clasa.cs">
+    <Compile Include="Item_Add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificare_Stergere_clasa.Designer.cs">
-      <DependentUpon>Modificare_Stergere_clasa.cs</DependentUpon>
+    <Compile Include="Item_Add.Designer.cs">
+      <DependentUpon>Item_Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificare_Stergere_Elev.cs">
+    <Compile Include="Store_Modify_Delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificare_Stergere_Elev.Designer.cs">
-      <DependentUpon>Modificare_Stergere_Elev.cs</DependentUpon>
+    <Compile Include="Store_Modify_Delete.Designer.cs">
+      <DependentUpon>Store_Modify_Delete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificare_Stergere_Profesor.cs">
+    <Compile Include="Employee_Modify_Delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificare_Stergere_Profesor.Designer.cs">
-      <DependentUpon>Modificare_Stergere_Profesor.cs</DependentUpon>
+    <Compile Include="Employee_Modify_Delete.Designer.cs">
+      <DependentUpon>Employee_Modify_Delete.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Adaugare_Clasa.resx">
-      <DependentUpon>Adaugare_Clasa.cs</DependentUpon>
+    <EmbeddedResource Include="Item_Modify_Delete.resx">
+      <DependentUpon>Item_Modify_Delete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adaugare_Profesor.resx">
-      <DependentUpon>Adaugare_Profesor.cs</DependentUpon>
+    <EmbeddedResource Include="Employee_Add.resx">
+      <DependentUpon>Employee_Add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MeniuPrincipal.resx">
-      <DependentUpon>MeniuPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="Store_Add.resx">
+      <DependentUpon>Store_Add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificare_Stergere_Vizualizare_Cautare_Elevi.resx">
-      <DependentUpon>Modificare_Stergere_Vizualizare_Cautare_Elevi.cs</DependentUpon>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Date_Atestat.resx">
-      <DependentUpon>Date_Atestat.cs</DependentUpon>
+    <EmbeddedResource Include="Stock_Modify.resx">
+      <DependentUpon>Stock_Modify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inregistrare_elev.resx">
-      <DependentUpon>Inregistrare_elev.cs</DependentUpon>
+    <EmbeddedResource Include="Project_Info.resx">
+      <DependentUpon>Project_Info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificare_Stergere_clasa.resx">
-      <DependentUpon>Modificare_Stergere_clasa.cs</DependentUpon>
+    <EmbeddedResource Include="Item_Add.resx">
+      <DependentUpon>Item_Add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificare_Stergere_Elev.resx">
-      <DependentUpon>Modificare_Stergere_Elev.cs</DependentUpon>
+    <EmbeddedResource Include="Store_Modify_Delete.resx">
+      <DependentUpon>Store_Modify_Delete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modificare_Stergere_Profesor.resx">
-      <DependentUpon>Modificare_Stergere_Profesor.cs</DependentUpon>
+    <EmbeddedResource Include="Employee_Modify_Delete.resx">
+      <DependentUpon>Employee_Modify_Delete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -166,7 +167,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="listbox_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -191,15 +191,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Elevi.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Elevi_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Elevi.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

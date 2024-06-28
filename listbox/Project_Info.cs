@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace listbox
+namespace LICENTA_VASILE_ISAI_FARCAS
 {
-    public partial class Date_Atestat : Form
+    public partial class Date_Licenta : Form
     {
-        public Date_Atestat()
+        public Date_Licenta()
         {
             InitializeComponent();
         }
